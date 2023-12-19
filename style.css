@@ -1,0 +1,264 @@
+@font-face {
+    font-family: abc1;
+    src: url(fonts/abc1.ttf);
+}
+
+@font-face {
+    font-family: abc2;
+    src: url(fonts/abc2.ttf);
+}
+
+@font-face {
+    font-family: abc3;
+    src: url(fonts/abc3.ttf);
+}
+
+@font-face {
+    font-family: abc4;
+    src: url(fonts/abc4.ttf);
+}
+
+/* ALL fonts for our site */
+.page1 {
+    margin: 0%;
+    height: 100vh;
+    background-image: url(images/man.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 80%;
+    overflow: hidden;
+}
+
+.nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    color: #bbdbfa;
+    padding: 10px;
+    
+}
+
+.part1 {
+    font-family: abc3;
+}
+
+.part2 {
+    display: flex;
+    text-transform: uppercase;
+    gap: 2vw;
+    font-family: abc3;
+    padding-top: 10px;
+}
+
+.part3 {
+    font-family: abc3;
+}
+
+.part4 {
+    display: none;
+}
+
+.main1 {
+    width: 80vw !important;
+    height: 45vh;
+    margin-top: 10vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-line {
+    /* background-color: salmon; */
+   
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh !important;
+}
+
+.last-line .part1 {
+    padding-top: 1vh;
+}
+
+.last-line.part2 {
+    gap: 5px !important;
+}
+
+.last-line .part2 span {
+    color: #bbdbfa;
+    font-family: abc1;
+    padding-top: 10px;
+}
+
+/* page 2 desgining */
+
+.page2 {
+    background-color: black;
+    height: auto !important;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+    .part2 {
+        display: none;
+        overflow: hidden;
+    }
+
+    .part3 {
+        display: none;
+        overflow: hidden;
+    }
+
+    .part4 {
+        display: block;
+        overflow: hidden;
+    }
+
+    .bl-img {
+        display: none;
+    }
+
+    .bl-img1 {
+        display: none;
+    }
+
+    .bl-txt {
+        display: none;
+    }
+
+    .page2 {
+        background-color: black;
+        height: 70vh;
+    }
+
+    .for-height {
+        display: none;
+    }
+
+    .glass-men {
+        width: 96vw !important;
+        height: auto;
+    }
+
+    .third-page-line h1 {
+        font-size: 50px !important;
+        font-family: abc1;
+        font-weight: 999;
+        margin-left: -4vw;
+        margin-top: -3vh !important;
+
+    }
+
+    .third-page-line h2 {
+        font-size: 50px !important;
+        font-family: abc1;
+        font-weight: bolder;
+        margin-top: -3vw;
+        margin-left: -4vw;
+    }
+
+}
+
+.logo {
+    position: relative;
+    background-image: url(https://assets-global.website-files.com/64f45f425cb2cbb837b6f9b8/651e882903afa94d698c910a_mita-capture.svg);
+    height: 8vh;
+    width: 6vw !important;
+    background-repeat: no-repeat;
+    margin-top: 10vh !important;
+}
+
+#flipping-logo {
+    width: 8vh;
+    margin-top: 1vh;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.txt {
+    height: 50vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt span {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12vw;
+    font-weight: 700;
+    font-family: abc1;
+    text-align: center;
+}
+
+.txt span h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 14vw;
+    font-weight: 700;
+    font-family: abc1;
+    text-align: center;
+}
+
+.txt span h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 5vw;
+    font-weight: 700;
+    font-family: abc1;
+    text-align: center;
+}
+
+/* page 3 */
+.page3 {
+    height: auto !important;
+    background-color: black;
+    overflow: hidden;
+}
+
+.glass-men {
+    height: 54vw;
+    width: 45vw;
+}
+
+.third-page-line {
+    color: white;
+}
+
+.third-page-line h1 {
+    font-size: 13vh;
+    font-family: abc1;
+    font-weight: 999;
+    margin-left: -4vw;
+}
+
+.third-page-line h2 {
+    font-size: 12vh;
+    font-family: abc1;
+    font-weight: bolder;
+    margin-top: -3vw;
+    margin-left: -4vw;
+}
+
+.line {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding-right: 7vw;
+    margin-top: -1vw;
+}
+
+.forth-page {
+    background-color: #bbdbfa;
+    height: 43vh;
+}
+
+.forth-page marquee {
+    font-size: 200px;
+    font-weight: 999;
+    font-family: abc1;
+}
